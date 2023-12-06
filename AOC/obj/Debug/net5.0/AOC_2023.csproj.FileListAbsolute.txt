@@ -1,0 +1,16 @@
+D:\Dokument\Code\CS\AOC\AOC_2023\AOC_2023\bin\Debug\net5.0\AOC_2023.exe
+D:\Dokument\Code\CS\AOC\AOC_2023\AOC_2023\bin\Debug\net5.0\AOC_2023.deps.json
+D:\Dokument\Code\CS\AOC\AOC_2023\AOC_2023\bin\Debug\net5.0\AOC_2023.runtimeconfig.json
+D:\Dokument\Code\CS\AOC\AOC_2023\AOC_2023\bin\Debug\net5.0\AOC_2023.runtimeconfig.dev.json
+D:\Dokument\Code\CS\AOC\AOC_2023\AOC_2023\bin\Debug\net5.0\AOC_2023.dll
+D:\Dokument\Code\CS\AOC\AOC_2023\AOC_2023\bin\Debug\net5.0\AOC_2023.pdb
+D:\Dokument\Code\CS\AOC\AOC_2023\AOC_2023\obj\Debug\net5.0\AOC_2023.csproj.AssemblyReference.cache
+D:\Dokument\Code\CS\AOC\AOC_2023\AOC_2023\obj\Debug\net5.0\AOC_2023.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dokument\Code\CS\AOC\AOC_2023\AOC_2023\obj\Debug\net5.0\AOC_2023.AssemblyInfoInputs.cache
+D:\Dokument\Code\CS\AOC\AOC_2023\AOC_2023\obj\Debug\net5.0\AOC_2023.AssemblyInfo.cs
+D:\Dokument\Code\CS\AOC\AOC_2023\AOC_2023\obj\Debug\net5.0\AOC_2023.csproj.CoreCompileInputs.cache
+D:\Dokument\Code\CS\AOC\AOC_2023\AOC_2023\obj\Debug\net5.0\AOC_2023.dll
+D:\Dokument\Code\CS\AOC\AOC_2023\AOC_2023\obj\Debug\net5.0\ref\AOC_2023.dll
+D:\Dokument\Code\CS\AOC\AOC_2023\AOC_2023\obj\Debug\net5.0\AOC_2023.pdb
+D:\Dokument\Code\CS\AOC\AOC_2023\AOC_2023\obj\Debug\net5.0\AOC_2023.genruntimeconfig.cache
+D:\Dokument\Code\CS\AOC\AOC_2023\AOC_2023\obj\Debug\net5.0\refint\AOC_2023.dll

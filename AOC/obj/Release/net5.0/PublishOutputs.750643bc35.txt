@@ -1,0 +1,5 @@
+D:\Dokument\Code\CS\AOC\AOC.exe
+D:\Dokument\Code\CS\AOC\AOC.dll
+D:\Dokument\Code\CS\AOC\AOC.deps.json
+D:\Dokument\Code\CS\AOC\AOC.runtimeconfig.json
+D:\Dokument\Code\CS\AOC\AOC.pdb
