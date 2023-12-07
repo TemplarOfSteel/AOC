@@ -3,16 +3,8 @@ using AOC.Convertion;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Runtime.InteropServices;
 using System.Data;
-using AOC.Generics;
-using System.Reflection.Metadata.Ecma335;
-using System.Reflection;
-using AOC.Comparison.LookUpTable;
-using System.Security.Cryptography.X509Certificates;
-using System.ComponentModel.DataAnnotations;
+
 
 namespace AOC._2023
 {
@@ -66,24 +58,27 @@ namespace AOC._2023
                 this.sortByA = sortByA;
             }
 
+
+            public int HigherThan(Hand other)
+            {
+                return sortByA ? A_HigherThan(other) : B_HigherThan(other);
+            }
+
             public int A_HigherThan(Hand other)
             {
                 var thisT = A_TypeRank();
                 var otherT = other.A_TypeRank();
                 if (thisT != otherT) return otherT - thisT;
 
-                for(int i = 0;i<5;i++)
+                for(int i = 0; i < 5; i++)
                 {
                     if (cardRanksA[cards[i]] != cardRanksA[other.cards[i]]) 
-                        { return cardRanksA[other.cards[i]] - cardRanksA[cards[i]]; }
+                    { 
+                        return cardRanksA[other.cards[i]] - cardRanksA[cards[i]]; 
+                    }
                 }
 
                 return 0;
-            }
-
-            public int HigherThan(Hand other)
-            {
-                return sortByA ? A_HigherThan(other) : B_HigherThan(other);
             }
 
             public int B_HigherThan(Hand other)
@@ -95,7 +90,9 @@ namespace AOC._2023
                 for (int i = 0; i < 5; i++)
                 {
                     if (cardRanksB[cards[i]] != cardRanksB[other.cards[i]])
-                    { return cardRanksB[other.cards[i]] - cardRanksB[cards[i]]; }
+                    {
+                        return cardRanksB[other.cards[i]] - cardRanksB[cards[i]]; 
+                    }
                 }
 
                 return 0;
