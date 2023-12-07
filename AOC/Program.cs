@@ -8,7 +8,7 @@ namespace AOC
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(AOC_23_06.Result_B());
+            Console.WriteLine(AOC_23_07.Result_B());
         }
     }
 }
