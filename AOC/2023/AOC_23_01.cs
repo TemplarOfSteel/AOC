@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 
 namespace AOC._2023
 {
-    class AOC_23_01
+    static class AOC_23_01
     {
         public static int Result_A()
         {

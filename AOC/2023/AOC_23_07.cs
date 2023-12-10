@@ -113,8 +113,6 @@ namespace AOC._2023
                 }
 
                 return points.Max();
-
-                throw new Exception();
             }
 
             int TypeRankBasedOnJoker(char jIs)
@@ -139,11 +137,11 @@ namespace AOC._2023
                 if (count.Contains(4)) { return 6; }
 
                 if ((count.Contains(3) && count.Contains(2)) ||
-                    count.Where(c => c == 3).Count() > 1) {return 5;}
+                    count.Where(c => c == 3).Count() > 1) { return 5;}
 
                 if (count.Contains(3)) { return 4; }
 
-                if (count.Where(c => c == 2).Count() > 1) {return 3;}
+                if (count.Where(c => c == 2).Count() > 1) { return 3;}
                 
                 if (count.Contains(2)) { return 2; }
 
